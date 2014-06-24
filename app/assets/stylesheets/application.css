@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+.status{
+	border-bottom: solid 1px #CCC;
+	padding: 5px 0;
+}
+
+.status p{
+	margin: 4px 0;
+}
+
+.status.hover{
+	background:#FAFAFA;
+}
+
+.status .controls{
+	display:none;
+}
+
+.status.hover .controls{
+	display:inline;
+}
