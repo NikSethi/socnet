@@ -7,7 +7,8 @@
   <tbody>
     <% @statuses.each do |status| %>
       <div class="status">
-        <strong><%= status.name %></strong>
+        <strong><%= status.user.full_name %></strong>
+        <em> <%= status.user.profile_name %> </em>
         <p><%= status.content %></p>
       
       
