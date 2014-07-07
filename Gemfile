@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+
 gem 'simple_form'
 gem 'devise', github: 'plataformatec/devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
