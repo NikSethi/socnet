@@ -8,7 +8,8 @@ class User < ActiveRecord::Base
   validates :first_name, presence: true
   validates :last_name, presence: true
   validates :profile_name, presence: true, uniqueness: true, format:{
-  																	with: /\A[a-z0-9_-]{3,16}\z/ }
+  																	with: /\A[A-Za-z0-9_-]{3,16}\z/,
+  																	message: "Must be formatted correctly" }
 
   def full_name
   	first_name + " " + last_name
