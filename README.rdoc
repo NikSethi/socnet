@@ -1,4 +1,4 @@
 == README
 
-*This is just a prototype for educational purposes
-*You can see the functional product at http://netsoc.herokuapp.com/
+* This is just a prototype for educational purposes
+* You can see the functional product at http://netsoc.herokuapp.com/
